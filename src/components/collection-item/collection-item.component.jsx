@@ -1,3 +1,6 @@
+//Collection-item is a div with an image of an item to put in the cart, the title and price of that item and the button to add to cart.
+//This is found in both shop and collection pages.
+
 import React from 'react';
 import { connect } from 'react-redux';
 import { addItem } from '../../redux/cart/cart.actions'

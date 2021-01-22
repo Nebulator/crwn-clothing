@@ -1,3 +1,5 @@
+//Collection-preview is a div that displays the first four items in a collection. This is seen in the shop page.
+
 import React from 'react';
 import CollectionItem from '../collection-item/collection-item.component'
 import './collection-preview.styles.scss'

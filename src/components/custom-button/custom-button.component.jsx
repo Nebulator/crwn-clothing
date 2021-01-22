@@ -1,3 +1,5 @@
+//Cutsom-Button is used throughout the application
+
 import React from 'react';
 import './custom-button.styles.scss'
 //import { CustomButtonContainer } from './custom-button.styles';

@@ -1,3 +1,6 @@
+//Directory is a div that contains menu-items. For instance, on the homepage, it contains the menu items that redirect
+//the user to a collection
+
 import React from 'react';
 import { connect } from 'react-redux'
 import { createStructuredSelector } from 'reselect';

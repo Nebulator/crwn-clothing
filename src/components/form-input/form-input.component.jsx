@@ -1,3 +1,4 @@
+//Form-input is a basic input element with stling and it can shrink and expand the label
 import React from 'react';
 import './form-input.styles.scss';
 

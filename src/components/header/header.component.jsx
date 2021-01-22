@@ -1,3 +1,6 @@
+//Header is the top bar that appears on every page. It includes a logo as a link to the home page,
+//a shop, sign-in/sign-out and cart buttons
+
 import React from 'react';
 import { HeaderContainer, LogoContainer, OptionsContainer, OptionLink } from './header.styles';
 import { connect } from 'react-redux';
@@ -7,7 +10,7 @@ import CartIcon from '../cart-icon/cart-icon.component';
 import CartDropdown from '../cart-dropdown/cart-dropdown.component';
 import { createStructuredSelector } from 'reselect';
 import { selectCartHidden } from '../../redux/cart/cart.selectors'
-import { selectCurrentUser } from '../../redux/user/user.selector'
+import { selectCurrentUser } from '../../redux/user/user.selectors'
 
 const Header = ({ currentUser, hidden }) => (
     <HeaderContainer>
